@@ -41,7 +41,7 @@ app.post(
     const mailOptions = {
       from: req.body.email,
       to: process.env.MAIL,
-      subject: `Porfolio message from: ${req.body.name} with email: ${req.body.email}`,
+      subject: `Mensaje de: ${req.body.name} con el email: ${req.body.email}`,
       text: req.body.message,
     };
     transporter.sendMail(mailOptions, (error, info) => {
@@ -49,13 +49,13 @@ app.post(
         console.log(error);
         res.status(500);
         res.send(
-          `There was an error sending the data to the server, please contact with the admin at: ${mailOptions.to}`
+          `Oops, hubo un error al contactar con el servidor, porfavor contacte con nososotros a: ${mailOptions.to}`
         );
       } else {
         console.log('Email sent: ' + info.response);
         res.status(200);
         res.send(
-          `Thanks you ${req.body.name}, your message was successfully sent to: ${mailOptions.to}. I will try to contact you ASAP!`
+          `Gracias ${req.body.name}, tu mensaje se mandó correctamente a: ${mailOptions.to}. ¡Intentaremos ponernos en contacto contigo lo más pronto posible!`
         );
       }
     });
