@@ -216,4 +216,4 @@ MAIL_PASSWORD=CONTRASEÑA 2 STEP DE GOOGLE
 
 ## Creditos
 
-<p>Este proyecto está creado por completo por Jorge Arrebola, Oscar Villén y David Morgade, alumnos del modulo M12 (proyecto) de SIMIX</p>
+<p>Este proyecto está creado por completo por Jorge Arrebola, Oscar Villén Pergrina y David Morgade Gil, alumnos del modulo M12 (proyecto) de SIMIX</p>
