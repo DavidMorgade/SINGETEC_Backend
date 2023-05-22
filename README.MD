@@ -3,7 +3,6 @@
 <br />
 
 <br />
-
 <div align="center">
   <a href="https://github.com/DavidMorgade/Web-Empresa-SIMIXM12">
     <img src="./screenshots/Logo.jpg" alt="Logo" height="100">
